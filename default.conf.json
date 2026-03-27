@@ -1,0 +1,24 @@
+{
+    "generation": {
+        "init_strength": 2,
+        "candidate_set_size": 120
+    },
+    "expansion": {
+        "use_validator": "ddnnf",
+        "use_solver": "minisat",
+        "candidate_set_size": 80
+    },
+    "optimization": {
+        "alt_length": 266,
+        "opt_time_ms": 3300000,
+        "configs": [
+            {
+                "use_weight": true,
+                "cell_taboo_percent": 33,
+                "forced_greedy_percent": 87,
+                "cell_level_percent": 19,
+                "taboo_size": 2
+            }
+        ]
+    }
+}
